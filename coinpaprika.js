@@ -1,6 +1,6 @@
 ( async () => {
     if ( typeof module !== 'undefined' && module.exports ) {
-        var axios = require( 'axios' ), exports = module.exports;
+        exports = module.exports;
     } else {
         var exports = window.cp = {};
     }
